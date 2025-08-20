@@ -1,0 +1,18 @@
+---
+author: "Francis R. Kovacs"
+title: "Document Title"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+company: 'FRK Enterprises LLC'
+client: 'ABC Corporation'
+format:
+  pdf:
+    highlight: tango
+    template: template_format.tex
+    include-in-header: math_commands.txt
+    latex_engine: xelatex
+    keep_tex: false
+  html:
+    highlight-style: github
+geometry: margin=0.75in
+fontsize: 11pt
+---
